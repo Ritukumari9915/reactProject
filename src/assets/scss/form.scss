@@ -1,0 +1,41 @@
+body { 
+    background-color: azure; 
+    color:#fff; 
+} 
+  
+h1 { 
+    text-align: center; 
+    color: black; 
+} 
+  
+.wrapper { 
+    margin: 0 auto;
+    background-color: rgb(166, 233, 213); 
+    width: 25%;
+    border: 1px solid grey;
+    color: #000;
+    border-radius: 10px;
+} 
+  
+input { 
+    padding: .3rem; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin: 10px; 
+} 
+  
+label { 
+    margin: 10px; 
+} 
+  
+button { 
+    padding: .3rem; 
+    font-size: 15px; 
+    background-color: rgb(9, 17, 6); 
+    border: 4px solid #ccc; 
+    color: #ccc; 
+    padding: 10px; 
+    border-radius: 8px; 
+    margin: 10px; 
+    cursor: pointer; 
+}
