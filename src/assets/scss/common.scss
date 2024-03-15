@@ -1,0 +1,40 @@
+input[type=text],
+input[type=email],
+input[type=tel],
+input[type=url]{ 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  
+} 
+input,select, textarea{
+    margin-bottom: 20px;
+}
+button { 
+    padding: .3rem; 
+    font-size: 15px; 
+    background-color: rgb(9, 17, 6); 
+    border: 4px solid #ccc; 
+    color: #ccc; 
+    padding: 10px; 
+    border-radius: 8px; 
+    margin: 10px; 
+    cursor: pointer; 
+}
+label{
+   
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        color: #333; 
+        margin-bottom: 8px;
+        display: block;
+}
+.center-box {
+    position: fixed; /* Position fixed to keep it centered regardless of scrolling */
+    top: 50%; /* Move the box down by 50% of the viewport height */
+    left: 50%; /* Move the box right by 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Translate the box back up and left by 50% of its own dimensions */
+}
